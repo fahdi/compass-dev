@@ -1,0 +1,5 @@
+{
+    "require-dev": {
+        "davidhsianturi/laravel-compass": "^0.1.1"
+    }
+}

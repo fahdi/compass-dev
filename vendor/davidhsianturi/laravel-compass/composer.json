@@ -1,0 +1,44 @@
+{
+    "name": "davidhsianturi/laravel-compass",
+    "description": "Laravel REST assistent for testing and build API documentation.",
+    "keywords": ["laravel", "API", "testing", "documentation"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David H. Sianturi",
+            "email": "davidhsianturi@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1.3",
+        "illuminate/console": "~5.7.0|~5.8.0|^6.0",
+        "illuminate/routing": "~5.7.0|~5.8.0|^6.0",
+        "illuminate/support": "~5.7.0|~5.8.0|^6.0",
+        "mpociot/documentarian": "^0.3.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^3.7|^3.8|^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Davidhsianturi\\Compass\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Davidhsianturi\\Compass\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Davidhsianturi\\Compass\\CompassServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
